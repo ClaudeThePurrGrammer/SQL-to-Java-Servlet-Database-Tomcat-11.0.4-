@@ -25,19 +25,22 @@ Il risultato finale è un servlet funzionante che interroga la tabella `libro` e
 
 ## 📁 Struttura del Progetto
 
-SQL_to_Java_Servlet_Tomcat_11.0.4/
-│
-├── src/main/java/
-│   └── Generic_Servlet.java
-│
-├── WebContent/
-│   ├── index.html  (opzionale)
-│   └── WEB-INF/
-│       ├── web.xml
-│       └── lib/
-│           └── mysql-connector-j-8.x.x.jar
-│
-└── build/
+ ```
+  SQL_to_Java_Servlet_Tomcat_11.0.4/
+  │
+  ├── src/main/java/
+  │   └── Generic_Servlet.java
+  │
+  ├── WebContent/
+  │   ├── index.html   (optional)
+  │   └── WEB-INF/
+  │       ├── web.xml
+  │       └── lib/
+  │           └── mysql-connector-j-8.x.x.jar
+  │
+  └── build/
+```
+
 
 
 ---
@@ -141,6 +144,7 @@ public class Generic_Servlet extends HttpServlet {
         }
     }
 }
+```
 
 # 🇬🇧 ENGLISH SECTION
 
@@ -164,19 +168,21 @@ The final result is a working servlet that queries the `libro` table and display
 
 ## 📁 Project Structure
 
-SQL_to_Java_Servlet_Tomcat_11.0.4/
-│
-├── src/main/java/
-│   └── Generic_Servlet.java
-│
-├── WebContent/
-│   ├── index.html  (optional)
-│   └── WEB-INF/
-│       ├── web.xml
-│       └── lib/
-│           └── mysql-connector-j-8.x.x.jar
-│
-└── build/
+  ```
+  SQL_to_Java_Servlet_Tomcat_11.0.4/
+  │
+  ├── src/main/java/
+  │   └── Generic_Servlet.java
+  │
+  ├── WebContent/
+  │   ├── index.html   (optional)
+  │   └── WEB-INF/
+  │       ├── web.xml
+  │       └── lib/
+  │           └── mysql-connector-j-8.x.x.jar
+  │
+  └── build/
+```
 
 
 ---
