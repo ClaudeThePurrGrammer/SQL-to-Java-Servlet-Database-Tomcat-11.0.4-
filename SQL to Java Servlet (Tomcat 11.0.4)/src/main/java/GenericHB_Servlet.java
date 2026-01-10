@@ -20,7 +20,7 @@ import java.sql.ResultSet; //Loading of SQL Prompts (Output :Query Result)
 //---------------------------------------
 import java.sql.SQLException;
 
-@WebServlet("/GenericHB_Servlet") //--> Tomcat Now Knows That This Program is a Servlet 
+@WebServlet("/GenericHB_Servlet") //--> Web-Servlet Endpoint  
 
 public class GenericHB_Servlet extends HttpServlet{
 	//Serial Number That Prevents Version Incompatibility (OPTIONAL)
